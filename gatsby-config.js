@@ -5,6 +5,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -25,6 +26,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `kjiodr4msm4o`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: 'pUX0yqdY9A0Ir1luIQL4YDwv893fjYQX4RhQ4HK7hs4',
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -1,0 +1,27 @@
+.card-column{
+    float: left;
+    // width: 25%;
+    // padding: 0px 15px;
+    // margin: 10px;
+    padding: 0px;
+}
+.simple-card{
+    background: linear-gradient(to right, #9a9a9a 0%, #2e2e2e 100%);
+    width: 300px;
+    height: 150px;
+    margin: 0px 10px;
+}
+._card-name{
+    text-align: center;
+    padding: 60px 0px;
+    // justify-content: center;
+    // align-content: center;
+    // vertical-align: sub;
+}
+._title{
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 8px;
+    line-height: 32px;
+    margin: auto;
+}

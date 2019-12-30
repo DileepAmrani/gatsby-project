@@ -1,0 +1,80 @@
+
+  /* Remove extra left and right margins, due to padding */
+  ._container {
+      margin: 0 -5px;
+      background-color: #202f39;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Clear floats after the columns */
+    ._container:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Float four columns side by side */
+    .div {
+        float: left;
+        width: 33.33%;
+        background-color: #202f39;
+        padding: 5% 58px 10px 58px;
+        
+      }
+
+.footer_headings{
+    display: block;
+    color: #ffffff;
+}
+
+.navigation_box{
+    padding: 15px 0px;
+}
+.div span{
+    display: block;
+    // float: left;
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: .7em;
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.address_box{
+    padding: 20px 0px;
+}
+
+
+.detail_text{
+ font-size: 14px;
+ color: #cbc5aa;
+ display: 'inline';
+ position: relative;
+ font-weight: normal;
+ bottom: 5px;
+ padding-left: 10px;
+}
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .div {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    ._div-1 {
+margin: 0px;
+    }
+    ._div-2 ._div-3{
+        padding: 5px 20px;
+    }
+    .link{
+        font-size: 14px;
+    }
+}

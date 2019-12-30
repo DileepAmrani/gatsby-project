@@ -1,0 +1,199 @@
+body *{
+    margin: 0;
+    padding: 0;;
+}
+
+// .container{
+//     width: 100%;
+//     padding: 15px;
+//     margin: 0px;
+//     margin-left: auto;
+//     padding-left: auto;
+//     display: flex;
+//     flex-wrap: nowrap;
+//     background-color: #E6E3E5;
+//     height: 700px;
+//     padding-top: 65px;
+//     z-index: -1;
+
+// }
+// .col-sm-4{
+//  width: 33%;
+// // border: 2px solid red;
+// }
+// .col-lg-8{
+// width: 77%;
+// padding: 110px;
+// }
+// .main-img{
+//     width: 100%;
+//     max-width: 370px;
+//     min-width: 105px;
+//     margin-top: 10px;
+// }
+
+// .main-heading{
+// font-size: 60px;
+// display: block;
+// font-weight: bold;
+
+// }
+// .main-sub-heading{
+//     display: block;
+//     font-size: 30px;
+//     padding:30px 0px;
+// }
+// .main-des{
+//     font-size: 13.5px;
+//     line-height: normal;
+//     margin: 0px;
+//     padding: 0px;
+// }
+// .text {
+//     position: absolute;
+//     bottom: 40px;
+//     right: 100px;
+// }
+
+// .demo {
+//     padding: 20px;
+//     margin: 5px;
+// }
+
+
+
+// @media only screen and (max-width: 1200px){
+//     .text {
+//         position: absolute;
+//         bottom: 20px;
+//         right: 70px;
+//     }
+//     .card-div{
+//         position: relative;
+//         bottom: 90px;
+//     }
+//     .main-heading{
+//         font-size: 40px;
+//     }
+//     .main-sub-heading{
+//         font-size: 25px;
+//     }
+// }
+
+// @media only screen and (max-width: 750px){
+//     .container{
+//         flex-wrap: wrap;
+//     }
+//     .col-sm-4 {
+//         display: block;
+//         width: 100%;
+//     }
+//     .col-lg-8{
+//         display: block;
+//         width: 100%;
+//         padding: 0px;
+//     }
+//     .main-img{
+//         width: 30%;
+//         margin-left: 5%;
+//         margin-top: 20px;;
+//     }
+//     .main-heading{
+//         font-size: 25px;
+//         margin-left: 6%;
+//         display: block;
+//         font-weight: bold;
+        
+//     }
+//     .main-sub-heading{
+//         display: block;
+//         font-size: 16px;
+//         padding: 0;
+//         margin: 0;
+//         margin-left: 5%;
+//         margin-top: 2%;
+//     }
+//     .main-des{
+//         font-size: 11px;
+//         font-weight: 400;
+//         line-height: normal;
+//     }
+//     .disrc{
+//         padding: 7%;
+//     }
+//     .text {
+//         position: absolute;
+//         bottom: 230px;
+//         right: 30px;
+//     }
+    
+//     .demo {
+//         padding: 20px;
+//         margin: 5px;
+//     }
+// }
+
+
+// @media only screen and (max-width: 360px){
+//     .container{
+//         padding: 25px 10px;
+//         margin: 0px;
+//     }
+//     .text {
+//         position: absolute;
+//         bottom: 0px;
+//         right: 0px;
+//     }
+    
+//     .demo {
+//         padding: 20px;
+//         margin: 5px;
+//     }
+//     .col-sm-4{
+//         height: 20px;
+//     }
+// }
+
+
+
+
+// Card Section
+.card-div{
+    position: relative;
+}
+.row {
+    border-radius: 5px;
+    // margin: 0px 30px;
+    padding: 0px 20px;
+    // flex-direction: row;
+    // display: flex;
+}
+.card-heading{
+    text-align: center;
+    margin: 30px;
+}
+.heading{
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    line-height: 32px;
+    color: rgb(88, 87, 87);
+
+  }
+
+
+// Rotating Card Section CSS
+.rotating-card-section{
+    padding: 0 70px;
+}
+.rotate-section-heading{
+padding: 0px 0px;
+}
+.text-heading{
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    line-height: 32px;
+    color: rgb(88, 87, 87);
+    padding-top: 50px;
+}
